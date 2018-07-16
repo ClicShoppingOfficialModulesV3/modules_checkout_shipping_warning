@@ -1,0 +1,8 @@
+ module_checkout_shipping_warning_title = Do you want to display a recommandation about the shipping ?
+ module_checkout_shipping_warning_description = Display a recommandation about the shipping
+
+ module_checkout_shipping_text_checkout_shipping_warning_title = Recommandations
+ module_checkout_shipping_ext_checkout_shipping_warning = <li>By Respect for the environment, our transport packaging consist mainly of ecological and biodegradable materials: recycled cardboard, timing mache cardboard, paper tape.</li>
+<li>to prevent future litigation, we ask you to check the contents of your package in the presence of the deliveryman and to accept under any circumstances a package in poor condition, refurbished, surrounded by adhesive, too light or that would have been open for transport without first checking the contents.
+in case your parcel is surrounded by a black film, we ask you to remove the film in the presence of the deliveryman to effectively check the status of your package before accepting.</li>
+

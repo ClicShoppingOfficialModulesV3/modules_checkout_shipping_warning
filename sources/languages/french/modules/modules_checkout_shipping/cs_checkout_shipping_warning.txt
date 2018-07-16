@@ -1,0 +1,9 @@
+module_checkout_shipping_warning_title = Souhaitez-vous afficher une message de recommandation concernant la livraison ?
+module_checkout_shipping_warning_description = Affiche dans la procédure d'expédition l'évolution du processus de commande
+
+module_checkout_shipping_text_checkout_shipping_warning_title = Recommandations
+module_checkout_shipping_ext_checkout_shipping_warning = <li>Par respect pour l'environnement, nos emballages de transport sont constitués pour l'essentiel de matériaux écologiques et biodégradables : cartons recyclés, calage en carton mâché, ruban adhésif papier.</li>
+<li>afin de prévenir tout litige ultérieur, nous vous demandons de vérifier le contenu de votre colis en présence du livreur et de n'accepter en aucun cas un colis en mauvais état, reconditionné, entouré d'adhésif, trop léger ou qui aurait été ouvert pendant le transport sans en avoir préalablement vérifié le contenu.
+dans le cas où votre colis est entouré d'un film noir, nous vous demandons de retirer ce film en présence du livreur afin de pouvoir vérifier efficacement l'état de votre colis avant de l'accepter.</li>
+
+
