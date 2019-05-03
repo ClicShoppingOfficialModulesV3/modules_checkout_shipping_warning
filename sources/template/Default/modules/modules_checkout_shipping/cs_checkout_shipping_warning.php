@@ -44,7 +44,7 @@
         $warning = '<!-- start cs_checkout_shipping_warning -->'. "\n";
 
         ob_start();
-        require($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/checkout_shipping_warning'));
+        require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/checkout_shipping_warning'));
 
         $warning .= ob_get_clean();
 
