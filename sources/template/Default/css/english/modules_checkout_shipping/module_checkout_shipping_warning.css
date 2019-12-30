@@ -8,16 +8,17 @@
  *
  */
 
-.moduleCheckoutShippingWarningBanner{}
+.moduleCheckoutShippingWarningBanner {
+}
 
 div.moduleCheckoutShippingWarningTitle {
-  padding-bottom: 0.625rem;
-  font-weight:bold;
-  font-size: 0.75rem;
+    padding-bottom: 0.625rem;
+    font-weight: bold;
+    font-size: 0.75rem;
 }
 
 div.moduleCheckoutShippingtWarningText {
-  padding-bottom: 0.625rem;
-  margin-bottom: 0.625rem;
-  font-size: 0.6875rem;
+    padding-bottom: 0.625rem;
+    margin-bottom: 0.625rem;
+    font-size: 0.6875rem;
 }
