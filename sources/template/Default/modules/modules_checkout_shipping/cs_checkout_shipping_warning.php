@@ -112,7 +112,7 @@
     }
 
     public function keys() {
-      return array (
+      return array(
         'MODULE_CHECKOUT_SHIPPING_WARNING_STATUS',
         'MODULE_CHECKOUT_SHIPPING_WARNING_CONTENT_WIDTH',
         'MODULE_CHECKOUT_SHIPPING_WARNING_SORT_ORDER'
