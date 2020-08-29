@@ -15,10 +15,10 @@
   class cs_checkout_shipping_warning {
     public $code;
     public $group;
-    public $title;
-    public $description;
-    public $sort_order;
-    public $enabled = false;
+    public string $title;
+    public string $description;
+    public ?int $sort_order = 0;
+    public bool $enabled = false;
 
     public function  __construct() {
       $this->code = get_class($this);
@@ -41,7 +41,7 @@
 
         $content_width = (int)MODULE_CHECKOUT_SHIPPING_WARNING_CONTENT_WIDTH;
 
-        $warning = '<!-- start cs_checkout_shipping_warning -->'. "\n";
+        $warning = '<!-- start cs_checkout_shipping_warning -->' . "\n";
 
         ob_start();
         require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/checkout_shipping_warning'));
