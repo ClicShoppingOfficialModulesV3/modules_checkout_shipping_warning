@@ -27,7 +27,7 @@
       $this->title = CLICSHOPPING::getDef('module_checkout_shipping_warning_title');
       $this->description = CLICSHOPPING::getDef('module_checkout_shipping_warning_description');
 
-      if (defined('MODULE_CHECKOUT_SHIPPING_WARNING_STATUS')) {
+      if (\defined('MODULE_CHECKOUT_SHIPPING_WARNING_STATUS')) {
         $this->sort_order = MODULE_CHECKOUT_SHIPPING_WARNING_SORT_ORDER;
         $this->enabled = (MODULE_CHECKOUT_SHIPPING_WARNING_STATUS == 'True');
       }
@@ -59,7 +59,7 @@
     }
 
     public function  check() {
-      return defined('MODULE_CHECKOUT_SHIPPING_WARNING_STATUS');
+      return \defined('MODULE_CHECKOUT_SHIPPING_WARNING_STATUS');
     }
 
     public function  install() {
