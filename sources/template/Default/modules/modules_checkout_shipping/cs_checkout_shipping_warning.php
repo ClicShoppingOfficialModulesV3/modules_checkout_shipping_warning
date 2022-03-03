@@ -14,7 +14,7 @@
 
   class cs_checkout_shipping_warning {
     public string $code;
-    public $group;
+    public string $group;
     public $title;
     public $description;
     public ?int $sort_order = 0;
